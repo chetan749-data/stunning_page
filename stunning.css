@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    margin: 0;
+}
+
+/* HEADER CSS STARTS HERE */
+
+header{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 40px;
+    
+}
+
+
+#header-logo{
+    height: 45px;
+    width: 110px;
+}
+
+.header-nav{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #B2B1AF;
+    font-weight: 600;
+    padding-bottom: 2px;
+}
+
+.nav-active{
+    color: #000;
+    border-bottom: 2px solid #8071D0;
+}
+
+.header-nav:hover{
+    color: #000;
+    border-bottom: 2px solid #8071D0;
+}
+
+
+#header-btn{
+    color: #A389CC;
+    padding: 18px 30px;
+    background-color: #FFD8DB;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+}
+
+/* HEADER CSS END HERE */
+
+
+/* ------------------------------------------------------------- */
+
+/* MAIN CSS STARTS HERE */
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+
+.left-items{
+    
+    height: calc(100vh - 80px);
+}
+
+.right-items{
+    height: calc(100vh - 120px);
+}
+
+.web-heading{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 22px;
+}
+
+#dot{
+    color: #5243C0;
+}
+
+.web-para{
+    color: #82817F;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    margin-bottom: 22px;
+}
+
+.btn-header-class{
+    margin-bottom: 30px;
+}
+
+.btn-tick-up{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.heading-btn{
+    color: #fff;
+    padding: 16px 30px;
+    background-color: #5243C0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+}
+
+
+/* --------------------------------------------------------------------- */
+
+/* CARD CSS STARTS HERE */
+
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: #F6F6F6;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    width: 400px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items:center;
+}
+
+
+
+.active-card{
+    background-color: #fff;
+    box-shadow: 0 0 30px grey;
+    
+}
+
+
+.card-name{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 20px;
+    display: flex;
+    
+}
+
+.card-date{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #C0C1BD; 
+    display: flex;
+    
+    
+}
+
+
+.dmm-icon{
+    height: 10px;
+    width: 20px;
+    border: 1px solid #FED7DA;
+    background-color: #FED7DA;
+    border-radius: 5px;
+}
+
+.blurr-icon{
+    height: 10px;
+    width: 20px;
+    border: 1px solid #FD6534;
+    background-color: #FD6534;
+    border-radius: 5px;
+}
+
+.illu-icon{
+    height: 10px;
+    width: 20px;
+    border: 1px solid #9ED095;
+    background-color: #9ED095;
+    border-radius: 5px;
+}
+
+.refund-icon{
+    height: 10px;
+    width: 20px;
+    border: 1px solid #FFE4A0;
+    background-color: #FFE4A0;
+    border-radius: 5px;
+}
+
+.card:hover{
+    background-color: #fff;
+    box-shadow: 0 0 10px gray;
+}
+.rightcard{
+    display:flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+.leftcard{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-left: 22px;
+}
+
+
+/* CARD CSS END HERE */
+
+/* CSS MAIN END HERE */
+
